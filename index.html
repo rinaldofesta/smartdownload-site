@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartDownload Renamer – Da caos a ordine, automaticamente</title>
+  <meta name="description" content="Rinomina in automatico i file scaricati con regole semplici. Mai più scaricato(1).pdf.">
+  <meta name="theme-color" content="#4377FF">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SmartDownload Renamer">
+  <meta property="og:description" content="Ordine immediato nei tuoi download. Rinomina automatica intelligente.">
+  <meta property="og:image" content="assets/promo-1400x560.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SmartDownload Renamer">
+  <meta name="twitter:description" content="Ordine immediato nei tuoi download. Rinomina automatica intelligente.">
+  <meta name="twitter:image" content="assets/promo-1400x560.png">
+
+  <link rel="icon" sizes="16x16" href="assets/icon16.png">
+  <link rel="icon" sizes="32x32" href="assets/icon32.png">
+  <link rel="icon" sizes="48x48" href="assets/icon48.png">
+  <link rel="icon" sizes="128x128" href="assets/icon128.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/icon48.png" alt="" class="logo">
+        <span class="brand-name">SmartDownload Renamer</span>
+      </div>
+      <nav class="nav">
+        <a href="#features">Funzioni</a>
+        <a href="#cta">Scarica</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Da caos a ordine, <span class="grad">automaticamente</span>.</h1>
+          <p class="lead">Rinomina i download con regole semplici. Mai più <code>scaricato(1).pdf</code>.</p>
+          <div class="cta-row" id="cta">
+            <a class="btn btn-primary" href="#" id="storeLink">Aggiungi a Chrome</a>
+            <a class="btn btn-secondary" href="#waitlist">Join waitlist</a>
+          </div>
+          <ul class="badges">
+            <li>⚡ Zero‑click</li>
+            <li>🧩 Smart Rules</li>
+            <li>🔒 Privacy 100%</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="assets/promo-1400x560.png" alt="Prima → Dopo: i file vengono rinominati automaticamente">
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container grid">
+        <div class="card">
+          <h3>Rinomina automatica</h3>
+          <p>Applica pattern come <code>{date}</code>, <code>{domain}</code>, <code>{title}</code>, <code>{ext}</code> mentre scarichi.</p>
+        </div>
+        <div class="card">
+          <h3>Regole flessibili</h3>
+          <p>Pipe utili: <code>|slug</code>, <code>|lower</code>, <code>|max:50</code> per nomi puliti e coerenti.</p>
+        </div>
+        <div class="card">
+          <h3>Zero configurazione</h3>
+          <p>Preset pronti all’uso. Parti e basta—puoi personalizzare in seguito.</p>
+        </div>
+        <div class="card">
+          <h3>100% Privato</h3>
+          <p>Tutto avviene nel tuo browser. Nessun dato inviato all’esterno.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+      <div class="container waitlist-inner">
+        <h2>Vuoi provarla per primo?</h2>
+        <p>Iscriviti—ti avviseremo al lancio, con accesso anticipato e aggiornamenti.</p>
+        <!-- Sostituisci action con il tuo endpoint Mailchimp/Substack -->
+        <form class="waitlist-form" action="https://example.com/your-mailing-list-endpoint" method="post">
+          <input type="email" name="email" placeholder="la-tua@email.com" required>
+          <button type="submit" class="btn btn-primary">Iscrivimi</button>
+        </form>
+        <p class="hint">Oppure scrivici: <a href="mailto:hello@smartdownload.app">hello@smartdownload.app</a></p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details>
+          <summary>È gratuito?</summary>
+          <p>La versione base è gratuita. Offriremo una versione Pro a basso costo con funzioni extra.</p>
+        </details>
+        <details>
+          <summary>Come proteggete la mia privacy?</summary>
+          <p>L’estensione lavora localmente nel browser. Non inviamo nessun dato a server esterni.</p>
+        </details>
+        <details>
+          <summary>Serve configurare qualcosa?</summary>
+          <p>No: partiamo con preset utili. Le regole sono modificabili in un editor semplice.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SmartDownload Renamer · <a href="#privacy">Privacy</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
